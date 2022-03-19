@@ -161,8 +161,79 @@ export default function Sidebar() {
                 </Link>
               </li>
 
+              <li className="items-center">
+                <Link href="/CVPROFILE2">
+                  <a
+                    href="#pablo"
+                    className={
+                      "text-xs uppercase py-3 font-bold block " +
+                      (router.pathname.indexOf("/CVPROFILE2") !== -1
+                        ? "text-lightBlue-500 hover:text-lightBlue-600"
+                        : "text-blueGray-700 hover:text-blueGray-500")
+                    }
+                  >
+                    <i
+                      className={
+                        "fas fa-chalkboard-teacher mr-2 text-sm " +
+                        (router.pathname.indexOf("/CVPROFILE2") !== -1
+                          ? "opacity-75"
+                          : "text-blueGray-300")
+                      }
+                    ></i>{" "}
+                    VOTRE CV
+                  </a>
+                </Link>
+              </li>
+              <li className="items-center">
+                <Link href="/tailwind-nextjs-portal-master/dashboard/src/App.js">
+                  <a
+                    href="#pablo"
+                    className={
+                      "text-xs uppercase py-3 font-bold block " +
+                      (router.pathname.indexOf("/tailwind-nextjs-portal-master/dashboard/src/App.js") !== -1
+                        ? "text-lightBlue-500 hover:text-lightBlue-600"
+                        : "text-blueGray-700 hover:text-blueGray-500")
+                    }
+                  >
+                    <i
+                      className={
+                        "fas fa-chalkboard-teacher mr-2 text-sm " +
+                        (router.pathname.indexOf("/tailwind-nextjs-portal-master/dashboard/src/App.js") !== -1
+                          ? "opacity-75"
+                          : "text-blueGray-300")
+                      }
+                    ></i>{" "}
+                    dash
+                  </a>
+                </Link>
+              </li>
+              <li className="items-center">
+                <Link href="/facture">
+                  <a
+                    href="#pablo"
+                    className={
+                      "text-xs uppercase py-3 font-bold block " +
+                      (router.pathname.indexOf("/facture") !== -1
+                        ? "text-lightBlue-500 hover:text-lightBlue-600"
+                        : "text-blueGray-700 hover:text-blueGray-500")
+                    }
+                  >
+                    <i
+                      className={
+                        
+                        "fas fa-file mr-2 text-sm " +
+                        (router.pathname.indexOf("/facture") !== -1
+                          ? "opacity-75"
+                          : "text-blueGray-300")
+                      }
+                    ></i>{" "}
+                     Documentation
+                  </a>
+                </Link>
+              </li>
               
             </ul>
+            
 
             {/* Divider */}
             <hr className="my-4 md:min-w-full" />
@@ -207,14 +278,26 @@ export default function Sidebar() {
             {/* Navigation */}
 
             <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
-              <li className="items-center">
-                <Link href="/landing">
+            <li className="items-center">
+                <Link href="/dash">
                   <a
                     href="#pablo"
-                    className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
+                    className={
+                      "text-xs uppercase py-3 font-bold block " +
+                      (router.pathname.indexOf("/dash") !== -1
+                        ? "text-lightBlue-500 hover:text-lightBlue-600"
+                        : "text-blueGray-700 hover:text-blueGray-500")
+                    }
                   >
-                    <i className="fas fa-newspaper text-blueGray-400 mr-2 text-sm"></i>{" "}
-                    Landing Page
+                    <i
+                      className={
+                        "fas fa-chalkboard-teacher mr-2 text-sm " +
+                        (router.pathname.indexOf("/dash") !== -1
+                          ? "opacity-75"
+                          : "text-blueGray-300")
+                      }
+                    ></i>{" "}
+                    dashhhhhh
                   </a>
                 </Link>
               </li>
@@ -242,7 +325,7 @@ export default function Sidebar() {
             <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
               <li className="inline-flex">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/colors/notus"
+                  href="http://localhost:4000"
                   target="_blank"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >

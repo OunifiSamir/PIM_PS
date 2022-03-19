@@ -72,8 +72,20 @@ const PagesDropdown = () => {
           >
             Tables
           </a>
+          
         </Link>
         
+        <Link href="/admin/CV">
+          <a
+            href="#pablo"
+            className={
+              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+            }
+          >
+            CV
+          </a>
+          
+        </Link>
         <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
         <span
           className={
@@ -118,6 +130,16 @@ const PagesDropdown = () => {
             }
           >
             Landing
+          </a>
+        </Link>
+        <Link href="/profile">
+          <a
+            href="#pablo"
+            className={
+              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+            }
+          >
+            Profile
           </a>
         </Link>
         <Link href="/profile">

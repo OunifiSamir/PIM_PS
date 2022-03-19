@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-import { AddCRA } from '../../redux/actions/profile'
+import {GetCRA, AddCRA } from '../../redux/actions/profile'
 import Classnames from 'classnames'
 // components
 
@@ -11,7 +11,7 @@ export default function CardTable({ color }) {
   const [form, setForm] = useState({})
   const dispatch = useDispatch()
   const errors = useSelector(state => state.errors)
-  //const cra = useSelector(state => state.cra.cra)
+  const cra = useSelector(state => state.cra)
   const [message, setMessage] = useState("")
   const [show, setShow] = useState(false)
   const onChange = (e)=>{
@@ -26,7 +26,7 @@ export default function CardTable({ color }) {
   dispatch(AddCRA(form, setMessage, setShow))
   }
   useEffect(async()=>{
-    //await dispatch(GetProfile(setForm))
+    await dispatch(GetCRA(setForm))
   },[])
   return (
     <>
