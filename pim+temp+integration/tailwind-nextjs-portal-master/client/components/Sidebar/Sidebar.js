@@ -112,7 +112,52 @@ export default function Sidebar() {
                   </a>
                 </Link>
               </li>
-
+              <li className="items-center">
+                <Link href="/admin/cra">
+                  <a
+                    href="#pablo"
+                    className={
+                      "text-xs uppercase py-3 font-bold block " +
+                      (router.pathname.indexOf("/admin/cra") !== -1
+                        ? "text-lightBlue-500 hover:text-lightBlue-600"
+                        : "text-blueGray-700 hover:text-blueGray-500")
+                    }
+                  >
+                    <i
+                      className={
+                        "fas fa-tv mr-2 text-sm " +
+                        (router.pathname.indexOf("/admin/cra") !== -1
+                          ? "opacity-75"
+                          : "text-blueGray-300")
+                      }
+                    ></i>{" "}
+                    CRA
+                  </a>
+                </Link>
+              </li>
+              <li className="items-center">
+                <Link href="/admin/fraisprofessionels">
+                  <a
+                    href="#pablo"
+                    className={
+                      "text-xs uppercase py-3 font-bold block " +
+                      (router.pathname.indexOf("/admin/fraisprofessionels") !== -1
+                        ? "text-lightBlue-500 hover:text-lightBlue-600"
+                        : "text-blueGray-700 hover:text-blueGray-500")
+                    }
+                  >
+                    <i
+                      className={
+                        "fas fa-tv mr-2 text-sm " +
+                        (router.pathname.indexOf("/admin/fraisprofessionels") !== -1
+                          ? "opacity-75"
+                          : "text-blueGray-300")
+                      }
+                    ></i>{" "}
+                    Frais Professionels
+                  </a>
+                </Link>
+              </li>
               <li className="items-center">
                 <Link href="/admin/settings">
                   <a

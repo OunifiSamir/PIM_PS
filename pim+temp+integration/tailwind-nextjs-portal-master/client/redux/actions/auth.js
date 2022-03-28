@@ -28,8 +28,10 @@ export const LoginAction = (form, router) => (dispatch)=>{
          router.push('/admin/home')
          //get token
         const { token } = res.data;
+        const { email } = res.data;
         //set to local storage
         window.localStorage.setItem("jwtToken", token);
+        window.localStorage.setItem("email", email);
         //set auth toekn if exist
         setAuthToken(token);
         //decode token
