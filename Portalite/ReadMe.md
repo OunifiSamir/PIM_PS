@@ -1,6 +1,6 @@
 # Notus NextJS
 
-![Notus NextJS](https://github.com/creativetimofficial/public-assets/blob/master/notus-nextjs/notus-nextjs.jpg?raw=true)
+![Notus NextJS](https://github.com/OunifiSamir/Pim_PS/blob/main/Portalite/uploads/4.png?raw=true)
 
 ### A beautiful UI Kit and Admin for Tailwind CSS and NextJS.
 
