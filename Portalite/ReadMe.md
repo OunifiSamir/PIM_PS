@@ -6,6 +6,26 @@
 
 ![Notus NextJS](https://github.com/OunifiSamir/Pim_PS/blob/main/Portalite/uploads/4.png?raw=true)
 
+# Gestion des frais 
+
+![Notus NextJS](https://github.com/OunifiSamir/Pim_PS/blob/main/Portalite/uploads/6.png?raw=true)
+![Notus NextJS](https://github.com/OunifiSamir/Pim_PS/blob/main/Portalite/uploads/7.png?raw=true)
+
+
+# Contrat degital 
+
+![Notus NextJS](https://github.com/OunifiSamir/Pim_PS/blob/main/Portalite/uploads/8.png?raw=true)
+
+# Integration PowerBI 
+
+![Notus NextJS](https://github.com/OunifiSamir/Pim_PS/blob/main/Portalite/uploads/2.png?raw=true)
+
+# Web3 Blockchain 
+
+![Notus NextJS](https://github.com/OunifiSamir/Pim_PS/blob/main/Portalite/uploads/1.png?raw=true)
+
+
+
 
 ### A beautiful UI Kit and Admin for Tailwind CSS and NextJS.
 
