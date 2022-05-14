@@ -11,6 +11,14 @@
 - (If not) Run in terminal `npm run dev`
 - Navigate to https://localhost:3000
 
+
+# Register 
+
+![Notus NextJS](https://github.com/OunifiSamir/Pim_PS/blob/main/Portalite/uploads/10.png?raw=true)
+# Login 
+
+![Notus NextJS](https://github.com/OunifiSamir/Pim_PS/blob/main/Portalite/uploads/11.png?raw=true)
+
 # Profile Salariee 
 
 ![Notus NextJS](https://github.com/OunifiSamir/Pim_PS/blob/main/Portalite/uploads/3.png?raw=true)
@@ -28,10 +36,17 @@
 ![Notus NextJS](https://github.com/OunifiSamir/Pim_PS/blob/main/Portalite/uploads/6.png?raw=true)
 ![Notus NextJS](https://github.com/OunifiSamir/Pim_PS/blob/main/Portalite/uploads/7.png?raw=true)
 
-
 # Contrat degital 
 
 ![Notus NextJS](https://github.com/OunifiSamir/Pim_PS/blob/main/Portalite/uploads/8.png?raw=true)
+# Exporter contrat PDF 
+
+![Notus NextJS](https://github.com/OunifiSamir/Pim_PS/blob/main/Portalite/uploads/9.png?raw=true)
+
+
+# CV 
+
+![Notus NextJS](https://github.com/OunifiSamir/Pim_PS/blob/main/Portalite/uploads/12.png?raw=true)
 
 # Integration PowerBI 
 
