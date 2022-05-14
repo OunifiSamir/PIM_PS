@@ -1,6 +1,11 @@
-# Notus NextJS
+# Profile Salariee 
+
+![Notus NextJS](https://github.com/OunifiSamir/Pim_PS/blob/main/Portalite/uploads/3.png?raw=true)
+
+# Tablaux de bord Dynamique Salarial 
 
 ![Notus NextJS](https://github.com/OunifiSamir/Pim_PS/blob/main/Portalite/uploads/4.png?raw=true)
+
 
 ### A beautiful UI Kit and Admin for Tailwind CSS and NextJS.
 
