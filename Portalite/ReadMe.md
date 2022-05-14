@@ -15,6 +15,10 @@
 
 ![Notus NextJS](https://github.com/OunifiSamir/Pim_PS/blob/main/Portalite/uploads/3.png?raw=true)
 
+# Compte rendu d'activitee 
+
+![Notus NextJS](https://github.com/OunifiSamir/Pim_PS/blob/main/Portalite/uploads/5.png?raw=true)
+
 # Tablaux de bord Dynamique Salarial 
 
 ![Notus NextJS](https://github.com/OunifiSamir/Pim_PS/blob/main/Portalite/uploads/4.png?raw=true)
